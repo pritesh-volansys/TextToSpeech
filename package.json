@@ -1,8 +1,15 @@
 {
   "dependencies": {
-    "request": "^2.79.0",
-    "speaker": "^0.3.0",
-    "wav": "^1.0.1",
-    "xmlbuilder": "^8.2.2"
+    "blob-to-stream": "1.0.3",
+    "cognitive-services": "0.1.2",
+    "express": "4.15.3",
+    "node-gyp": "3.6.2",
+    "rebuild": "0.1.2",
+    "request": "2.79.0",
+    "speaker": "0.3.0",
+    "watson-developer-cloud": "2.35.0",
+    "wav": "1.0.1",
+    "xmlbuilder": "8.2.2",
+    "espeak":"0.0.3"
   }
 }
