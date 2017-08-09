@@ -54,7 +54,7 @@ MaryTTS :
 ## Usage
 
 
-### Speech to text open source :
+### Speech to text :
 
 IBM :
 
@@ -83,7 +83,7 @@ $ node MS.js /home/pritesh/Priteshdtl/Lumin_Project/wav/test3.wav
 
 Result : Check console log with your converted text.
 
-### Text to speech open source :
+### Text to speech :
 
 ESpeck :
 
