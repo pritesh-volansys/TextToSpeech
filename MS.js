@@ -1,8 +1,9 @@
 const fs = require('fs');
 const request = require('request');
+const config = require('./Config');
 
-const clientId = 'test-app';                             // Can be anything
-const clientSecret = '879a55ea55604ca193ab8c7c15424314'; // API key from Azure marketplace
+const clientId = config.msClientId;                             
+const clientSecret = config.msClientSecret; 
 
 // Get file path from command argument.
 process.argv.forEach((val, index) => {

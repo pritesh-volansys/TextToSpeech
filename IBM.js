@@ -1,6 +1,7 @@
 const request = require('request'),
     fs = require('fs'),
-    SpeechToTextV1 = require('watson-developer-cloud/speech-to-text/v1');
+    SpeechToTextV1 = require('watson-developer-cloud/speech-to-text/v1'),
+    config = require('./Config');
 
 
 // get file path from command argument.
@@ -8,7 +9,7 @@ process.argv.forEach((val, index) => {
     let filename;    // File path from command line.
     if (index === 2) {
         filename = val;
-        speechToText(filename)
+        speechToText(filename);
     }
 });
 
@@ -16,8 +17,8 @@ process.argv.forEach((val, index) => {
 function speechToText(filename) { 
     // User name and password from your IBM account.   
     let speech_to_text = new SpeechToTextV1({
-        username: 'bc5ee103-aa14-495c-bc8d-28a53dc8b76c',
-        password: '10WUjslLwCwi'
+        username: config.ibmUserName,
+        password: config.ibmPassword
     });
 
     let params_STT = {
