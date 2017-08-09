@@ -2,7 +2,7 @@
 
 This project for performing speech recognition and text to speech, with support for several engines and APIs
 
-### Paid Speech recognition engine/API support:
+### Paid Speech recognition APIs support:
 
 * Microsoft Bing Voice Recognition [Link](myLib/README.md)
 * IBM Speech Recognition [Link](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/speech-to-text.html)
@@ -23,7 +23,7 @@ $ npm install
 
 ### Speech to text paid APIs :
 
-**IBM**
+IBM :
 
 * Create new user : [Link](https://console.bluemix.net/)
 * Get user and password detail :  [Link](https://console.bluemix.net/catalog/services/speech-to-text?env_id=ibm:yp:au-syd&taxonomyNavigation=services)
@@ -32,20 +32,20 @@ $ npm install
 $ npm install watson-developer-cloud --save
 ```
 
-**Bing Speech API**
+Bing Speech API :
 
 * Get API Key : [Link](https://azure.microsoft.com/en-us/try/cognitive-services/?productId=%2Fproducts%2FBing.Speech.Preview)
 
-### Text to speech open source :
+### Open source Text to speech  :
 
-**ESpeck**
+ESpeck :
 
 ```
 $ sudo apt-get install espeak
 $ npm install espeak
 ```
 
-**MaryTTS**
+MaryTTS :
 
 * Get latest version of MaryTTS 5.2 : [click here](http://mary.dfki.de/download/index.html)
 * After install MaryTTS [link](http://localhost:59125)
@@ -53,7 +53,7 @@ $ npm install espeak
 
 ## Usage
 
-**IBM**
+IBM :
 
 ```
 $ node IBM.js ".wav file path & name"
@@ -65,7 +65,7 @@ $ node IBM.js /home/pritesh/Priteshdtl/Lumin_Project/wav/test3.wav
 ```
 Result : Check console log with your converted text.
 
-**Bing Speech API**
+Bing Speech API :
 
 
 ```
@@ -82,7 +82,7 @@ Result : Check console log with your converted text.
 
 ### Text to speech open source :
 
-**ESpeck**
+ESpeck :
 
 ```
 $ node eSpeak.js  "your text"
@@ -90,7 +90,7 @@ $ node eSpeak.js  "your text"
 
 Result : It will speak the converted wav file.
 
-**MaryTTS**
+MaryTTS :
 
 ```
 $ node MaryTTS.js "your text"
