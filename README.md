@@ -4,7 +4,7 @@ This project for performing speech recognition and text to speech, with support 
 
 ### Paid Speech recognition APIs support:
 
-* Microsoft Bing Voice Recognition [Link](myLib/README.md)
+* Microsoft Bing Voice Recognition [Link](https://azure.microsoft.com/en-in/services/cognitive-services/speech/)
 * IBM Speech Recognition [Link](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/speech-to-text.html)
 * Google Cloud Speech API [Link](https://cloud.google.com/speech)
 
