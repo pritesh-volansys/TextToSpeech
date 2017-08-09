@@ -1,4 +1,4 @@
-# Speech to Text & Text to speeech in Node
+# Speech to Text & Text to speech in Node
 
 This project for performing speech recognition and text to speech, with support for several engines and APIs
 
